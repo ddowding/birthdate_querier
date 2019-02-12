@@ -36,4 +36,8 @@ optional arguments:
 
 ## Mounting csv's
 
-* The container mounts the csv under the `./Data/users.csv` path
+* The container mounts a csv container usre information under the `./Data/users.csv` path
+* The csv contents are expected to be in following format: `<uuid string>, <date string>`
+```
+uuid,	yyyy-mm-dd
+```
