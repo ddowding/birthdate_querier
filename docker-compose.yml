@@ -1,0 +1,7 @@
+version: '3'
+services:
+  birthdate_querier:
+    build: .
+    volumes:
+     - ./Data:/app/Data
+    container_name: birthdate_querier
