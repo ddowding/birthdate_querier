@@ -12,7 +12,7 @@ pip3 install docker-compose
 
 ## Example scripts
 * Some example scripts exist that have example queries inside: e.g:
-    * ./example_query_scripts/query_age_over_n.sh`
+    * `./example_query_scripts/query_age_over_n.sh`
     * This will execute `python main.py --age_over_n 22` on the running container.
 
 ## Command usage:
